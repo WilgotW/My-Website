@@ -42,31 +42,35 @@ body{
 }
 /* .curving{
 } */
-#theSvg{
-    margin-top: 30%;
+svg{
     position: absolute;
+}
+#wave1{
+    margin-top: 30%;
     z-index: 80;
 }
-#middleSvg{
+#wave2{
     /* bottom: 1vw; */
     margin-top: 30%;
-    position: absolute;
     z-index: 90;
 }
-#underSvg{
+#wave3{
     margin-top: 34%;
-    position: absolute;
     z-index: 100;
 }
-
-/* #box{
+.colorBox{
     position: absolute;
-    top: 1000px;
-    width: 150px;
-    height: 150px;
-    background: pink;
-    z-index: 1000;
-} */
+    width: 100%;
+    height: 30vw;
+    background: #261d28;
+    margin-top: 50%;
+    z-index: 110;
+}
+#wave4{
+    margin-top: 61%;
+    z-index: 120;
+}
+
 #project-div{
     position: absolute;
     justify-content: center;
